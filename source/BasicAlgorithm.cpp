@@ -1,4 +1,3 @@
-﻿#include "stdafx.h"
 #include <Windows.h>
 
 
@@ -7,13 +6,13 @@ int main()
 	int k, n, C;
 
 	printf("Type k: \n");
-	scanf_s("%d", &k);
+	scanf("%d", &k);
 
 	printf("Type the number cycles: \n");
-	scanf_s("%d", &n);
+	scanf("%d", &n);
 
 	printf("Type the multiplicator: \n");
-	scanf_s("%d", &C);
+	scanf("%d", &C);
 
 	for (int l = 0; l<10; l++)
 	{
