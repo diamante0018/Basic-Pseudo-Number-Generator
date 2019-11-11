@@ -1,4 +1,4 @@
-#include <Windows.h>
+#include <stdio.h>
 
 
 int main()
@@ -19,7 +19,6 @@ int main()
 		k = C * (k - n * (k / n));
                 printf("Generating 10 random numbers\n");
 		printf("Random Number: %d\n", k);
-		Sleep(1000);
 	}
 
 	
