@@ -1,5 +1,3 @@
-package random;
-
 import java.util.*;
 import java.io.PrintWriter;
 import java.io.UnsupportedEncodingException;
