@@ -22,8 +22,7 @@ int main() {
 		a = rand() % c + b;
 		printf("Random Value between %d and %d: %d\n", b, c, a); // a is the random number b and c are the parameters
 	}
-
-	Sleep(10000); // Added so that the user can see the results
+	
         return 0;
 
 }
