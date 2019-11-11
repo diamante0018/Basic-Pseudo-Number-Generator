@@ -1,5 +1,3 @@
-﻿#include "stdafx.h"
-#include <windows.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h> 
@@ -8,27 +6,15 @@ int main() {
 	int a, b, c, d;
 	int l;
 	time_t t;
+	
+	printf("Enter the first value: \n");
+	scanf("%d", &b);
 
-	while (1)
-	{
+	printf("Enter the second value: \n");
+	scanf("%d", &c);
 
-		printf("Enter the first value: \n");
-		scanf_s("%d", &b);
-
-		printf("Enter the second value: \n");
-		scanf_s("%d", &c);
-
-		printf("How many times would you like to draw a random number? \n");
-		scanf_s("%d", &d);
-
-		if (d > (c - b)) {
-			printf("Why would you want to generate this many numbers? \n\n");
-		}
-
-		else break;
-
-	}
-
+	printf("How many times would you like to draw a random number? \n");
+	scanf("%d", &d);
 
 	srand((unsigned)time(&t)); // Initializes the seed of rand() with the current time 
 
@@ -38,7 +24,7 @@ int main() {
 	}
 
 	Sleep(10000); // Added so that the user can see the results
-    return 0;
+        return 0;
 
 }
 
